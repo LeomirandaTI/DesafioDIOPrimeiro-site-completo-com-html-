@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #70c4e0;
+    padding: 10px 20px 0px;
+}
+.menu ul li{
+    margin-bottom: 100px;
+}
+
+.header {
+    
+    min-height: 150px;
+}
+.content {
+    background-color: #add8e6;
+    min-height: 300px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content h2{
+    
+    color: rgb(67, 139, 163);
+}
+.content p {
+    font-family: 'Lucida Sans Unicode';
+}
+.footer {
+    background-color: #add8e6;
+    min-height: 150px;
+}
+.footer h3{
+    text-align: center;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+.content ul li {
+    font-family: 'Trebuchet MS';
+}
+.mapa {
+    float: right;
+    margin-top: -110px;
+    
+  }
+.Contato ul li{
+    margin-bottom: 10px;
+}
+.Contato ul li input::placeholder{
+    text-align: center;
+}
+.Tabela th {
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+    
+}
+.Tabela td {
+    text-align: center;
+    background-color: white;
+    border: solid 1px black;
+}
+table{
+    -webkit-box-shadow: 4px 2px 5px 2px rgba(0,0,0,0.29); 
+    box-shadow: 4px 2px 5px 2px rgba(0,0,0,0.29);
+    border: solid 1px black;
+}
+td:hover{
+    background-color: grey;
+}
